@@ -11,7 +11,7 @@
 			$losowanieSlowek=new losowanieSlowek();
 			$i=0;
 			foreach($losowanieSlowek->wylosowaneSlowka as $asocjacyjna){
-				echo $asocjacyjna["angielski"].':  <input value="" name="tlumaczenie'.$i.'" /><br /> <br />';
+				echo $asocjacyjna["angielski"].':  <input autocomplete="off" value="" name="tlumaczenie'.$i.'" /><br /> <br />';
 				$i++;
 			}
 		?>
